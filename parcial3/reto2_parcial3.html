@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+  <title>Bienvenida del usuario</title>
+
+  <script type = "text/javascript">
+
+  function alertName() {
+
+
+    var cent= parseInt(document.forms[0].centi.value);
+    var opcion = (document.forms[0].opc.value);
+    
+
+    if(opcion == "far"){
+        var conv1 = cent * 9 /5 + 32;
+        document.write("Sus grados centigrados son: ");
+        document.write((cent));
+        document.write("Tu opcion es: Farenheit");
+        document.write("La conversión es: ");
+        document.write((conv1));
+    }
+    if(opcion == "kel"){
+        var conv2 = cent + 274.15;
+        document.write("Sus grados centigrados son: ");
+        document.write((cent));
+        document.write("Tu opcion es: Kelvins");
+        document.write("La conversión es: ");
+        document.write((conv2));
+    }
+
+    
+    
+    return true;
+}
+
+  </script>
+
+</head>
+
+<body>
+
+<form id="myform" onsubmit="return alertName();">
+
+<p> Grados centígrados  <input id="centi" name="centi" type="text" /></p>
+<p>a <select name="opc" id="opc">
+    <option value="far">Farenheit</option>
+    <option value="kel">Kelvin</option>
+</select></p>
+<p><input type="submit" /></p>
+
+</form>
+
+</body>
+
+</html>
