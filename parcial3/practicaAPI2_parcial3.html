@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+
+<body>
+    <div>
+    <form id="myform" onsubmit="return alertName();">
+
+<p>Ingrese el inicio <input id="inicio" name="inico" type="number" /></p>
+<p>Ingrese el fin <input id="fin" name="fin" type="number" /></p>
+<select name="vari" id="vari">
+    <option value="uno">seno</option>
+    <option value="dos">coseno</option>
+    <option value="tres">tangente</option>
+    <option value="cuatro">cotangente</option>
+
+</select>
+<p><input type="submit" /></p>
+    </form>
+</div>
+<div id="myPlot" style="width:100%;max-width:700px"></div>
+<script>
+
+function alertName(){
+var ini= parseInt(document.forms[0].inicio.value);
+var fin= parseInt(document.forms[0].fin.value);
+var varia = document.forms[0].vari.value;
+
+let exp;
+if(varia == "uno"){
+    exp = "Math.sin(x)";
+}
+if(varia=="dos"){
+    exp = "Math.cos(x)";
+}
+if(varia=="tres"){
+    exp = "Math.tan(x)";
+}
+if(varia=="cuatro"){
+    exp = "Math.tanh(x)";
+}
+
+
+
+// Generate values
+const xValues = [];
+const yValues = [];
+
+for (let x = ini; x <= fin; x += 0.1) {
+
+ xValues.push(x);
+
+ yValues.push(eval(exp));
+
+}
+// Display using Plotly
+const data = [{x:xValues, y:yValues, mode:"lines"}];
+const layout = {title: "y = " + exp};
+
+Plotly.newPlot("myPlot", data, layout);
+return false;
+
+}
+
+</script>
+
+
+
+</body>
+
+</html>
+

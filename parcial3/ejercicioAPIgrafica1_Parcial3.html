@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<body>
+<div id="myPlot" style="width:100%;max-width:700px"></div>
+<div id="myPlot2" style="width:100%;max-width:700px"></div>
+<div id="myPlot3" style="width:100%;max-width:700px"></div>
+
+<script>
+const xArray = ["Programación I", "Matemáticas I", "Física I", "CNO Programación Web I", "Inglés V", "Núcleo II"];
+const yArray = [8, 8.5, 7, 9.5, 7.5, 10];
+const yArray2 = [6, 7.5, 8.5, 9, 7.5, 8.5];
+const yArray3 = [];
+ for(i = 0; i < 10; i++){
+        yArray3[i] = Math.floor(Math.random() *10) + 1;
+    }
+const data3 = [{
+    x:xArray,
+    y:yArray3,
+    type:"bar",
+    orientation: "v",
+    marker: {color: "rgba(0, 225, 0, 0.6)"}
+}];
+const layout3 = {title: "Pracial 3"};
+Plotly.newPlot("myPlot3", data3, layout3);
+
+
+
+
+
+
+
+
+
+
+const data2 = [{
+    x:xArray,
+    y:yArray2,
+    type:"bar",
+    orientation: "v",
+    marker: {color: "rgba(225, 0, 0, 0.6)"}
+}];
+const layout2 = {title: "Pracial 2"};
+Plotly.newPlot("myPlot2", data2, layout2);
+const data = [{
+ x:xArray,
+ y:yArray,
+ type:"bar",
+ orientation:"v",
+ marker: {color:"rgba(0,0,255,0.6)"}
+}];
+const layout = {title:"Parcial 1"};
+Plotly.newPlot("myPlot", data, layout);
+</script>
+
+</body>
+</html>
