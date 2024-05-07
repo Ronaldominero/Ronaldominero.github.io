@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+    var intentos = 0;
+
+
+    function juego(){
+    var pal = "perrito";
+    var intento = document.forms[0].pala.value;
+
+
+    if(intento == pal){
+        alert("ganaste");
+    }
+    if(intento != pal){
+        intentos++;
+    }
+    if(intentos == 1){
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(95, 50, 40, 0, 2*Math.PI);
+            ctx.stroke();
+    }
+    if(intentos == 2){
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+            ctx.beginPath();
+            ctx.moveTo(95, 90);
+            ctx.lineTo(95, 150);
+            ctx.stroke();
+
+    }
+    if(intentos == 3){
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+             ctx.beginPath();
+            ctx.moveTo(95, 90);
+            ctx.lineTo(60, 130);
+            ctx.stroke();
+
+    }
+    if(intentos == 4){
+             const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+             ctx.beginPath();
+            ctx.moveTo(95, 90);
+            ctx.lineTo(120, 170);
+            ctx.stroke();
+
+
+       
+    }
+    if(intentos == 5){
+        const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+        ctx.beginPath();
+            ctx.moveTo(95, 150);  
+            ctx.lineTo(70, 200); 
+            ctx.stroke();  
+    }
+
+    if(intentos == 6){
+        const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+            ctx.beginPath();
+            ctx.moveTo(95, 150);
+            ctx.lineTo(130, 200); 
+            ctx.stroke();
+            alert("Haz perdido");
+    }
+    if(intentos > 6){
+        alert("Haz perdido");
+    }
+    
+    return false;
+
+
+    
+}
+
+            
+        function borrar(){
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+            ctx.fillStyle = "white";
+            ctx.fillRect(10,10,400,400);
+        }
+    </script>
+</head>
+<body>
+    <h1>PISTA: LA PALABRA TIENE 7 LETRAS, EMPIEZA POR P</h1>
+<canvas id="myCanvas" width="500" height="500"></canvas>
+<canvas id="myCanvas"></canvas>
+
+
+<button onclick="borrar()">borrar</button>
+
+<form id="pala" onsubmit="return juego();">
+<p>Ingresa la palabra <input id="pala" name="pala" type="text" /></p>
+</form>
+<input type="submit">
+<button onclick="juego()">JUGAR</button>
+
+</body>
+</html>
