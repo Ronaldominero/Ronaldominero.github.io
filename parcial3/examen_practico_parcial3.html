@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery_1/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery_1/jquery-ui-1.8.17.custom.min.js"></script>
+	<script type="text/javascript" src="jspdf.js"></script>
+
+	<script type="text/javascript" src="jspdf.plugin.addimage.js"></script>
+
+	<script type="text/javascript" src="jspdf.plugin.standard_fonts_metrics.js"></script>
+	<script type="text/javascript" src="jspdf.plugin.split_text_to_size.js"></script>
+	<script type="text/javascript" src="jspdf.plugin.from_html.js"></script>
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid;
+            border-color: rgb(106, 118, 189);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        tr{
+            border: 1px solid;
+            border-color: rgb(106, 118, 189);
+        }
+        td{
+            border: 1px solid;
+            border-color: rgb(106, 118, 189);
+        }
+        button{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border-color: rgb(178, 178, 255);
+            background-color: rgb(130, 199, 130);
+            size: 500px;
+            font-size: 150px;
+            
+            
+        }
+        button:hover{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border-color: rgb(84, 84, 255);
+            background-color: transparent;
+            size: 500px;
+            font-size: 150px;
+            
+
+        }
+    </style>
+    
+</head>
+<body>
+    <iframe frameborder="0" width="500" height="400"></iframe>
+    <script>
+
+        function pal(){
+            var numeros = [];
+        var palabra = '';
+
+        for(i = 1; i < 11; i++){
+            do{
+                numero = prompt('Escriba la pregunta ' + i);
+                numero = parseInt(numero);
+            }while(numero < 0 || numero > 25);
+            numeros.push(numero);
+        }
+
+        var abcdario = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+        for(i = 0; i < numeros.length; i++){
+            var letra = abcdario[numeros[i]]; 
+            palabra+=letra
+        }
+
+var doc = new jsPDF();
+doc.setFontSize(22);
+doc.text(20, 20, 'LA PALABRA EEEEESS......');
+
+
+doc.setFontSize(16);
+doc.text(20, 30, palabra);
+
+
+
+
+var string = doc.output('datauristring');
+
+$('iframe').attr('src', string);
+
+        }
+
+        
+    </script>
+
+
+
+<h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(90, 231, 109);">¡JUEGO DE LA PALABRA!</h1>
+<p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(122, 122, 255);">Al presionar JUGAR se te pondrán prompts en la pantalla que te solicitarn números del 1 al 10, cada número que pongas equivale a una letra del abacedario, <strong>NOTA:</strong> estan ordenadas alfabéticamente y numéricamente, puedes armar la palabra que tu desees (máximo 10 letras) :D</p>
+<p>En esta tabla se te dejaran las letras y sus números :D</p>
+<table>
+    <tr>
+    <td>LETRA</td>
+    <td>NÚMERO</td>
+</tr>
+<tr>
+    <td>A</td>
+    <td>0</td>
+</tr>
+<tr>
+    <td>B</td>
+    <td>1</td>
+</tr>
+<tr>
+    <td>C</td>
+    <td>2</td>
+</tr>
+<tr>
+    <td>D</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>E</td>
+    <td>4</td>
+</tr>
+<tr>
+    <td>F</td>
+    <td>5</td>
+</tr>
+<tr>
+    <td>G</td>
+    <td>6</td>
+</tr>
+<tr>
+    <td>H</td>
+    <td>7</td>
+</tr>
+<tr>
+    <td>I</td>
+    <td>8</td>
+</tr>
+<tr>
+    <td>J</td>
+    <td>9</td>
+</tr>
+<tr>
+    <td>K</td>
+    <td>10</td>
+</tr>
+<tr>
+    <td>L</td>
+    <td>11</td>
+</tr>
+<tr>
+    <td>M</td>
+    <td>12</td>
+</tr>
+<tr>
+    <td>N</td>
+    <td>13</td>
+</tr>
+<tr>
+    <td>O</td>
+    <td>14</td>
+</tr>
+<tr>
+    <td>P</td>
+    <td>15</td>
+</tr>
+<tr>
+    <td>Q</td>
+    <td>16</td>
+</tr>
+<tr>
+    <td>R</td>
+    <td>17</td>
+</tr>
+<tr>
+    <td>S</td>
+    <td>18</td>
+</tr>
+<tr>
+    <td>T</td>
+    <td>19</td>
+</tr>
+<tr>
+    <td>U</td>
+    <td>20</td>
+</tr>
+<tr>
+    <td>V</td>
+    <td>21</td>
+</tr>
+<tr>
+    <td>W</td>
+    <td>22</td>
+</tr>
+<tr>
+    <td>X</td>
+    <td>23</td>
+</tr>
+<tr>
+    <td>Y</td>
+    <td>24</td>
+</tr>
+<tr>
+    <td>Z</td>
+    <td>25</td>
+</tr>
+
+    
+</table>
+<button onclick="pal()">JUGAR</button>
+<p>AL TERMINAR PROMPRS, EL PDF SE TE GENRARÁ AL PRINCIPIO DE LA PÁGINA</p>
+</body>
+</html>
