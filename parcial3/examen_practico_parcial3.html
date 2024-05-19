@@ -53,6 +53,8 @@
     <script>
 
         function pal(){
+            
+            
             var numeros = [];
         var palabra = '';
 
@@ -70,8 +72,10 @@
             var letra = abcdario[numeros[i]]; 
             palabra+=letra
         }
-        
 
+        
+        
+        
 var doc = new jsPDF();
 doc.setFontSize(22);
 doc.text(20, 20, 'LA PALABRA EEEEESS......');
@@ -86,16 +90,31 @@ doc.text(20, 30, palabra);
 var string = doc.output('datauristring');
 
 $('iframe').attr('src', string);
+
+document.getElementById("demo").innerHTML = 'La palabra es: '+palabra;
+
+
+
+
 return false;
+
+
+
+
+
 
         }
 
-        
+
+
+          
     </script>
 
 
 
+<p id="demo"></p>
 <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(90, 231, 109);">¡JUEGO DE LA PALABRA!</h1>
+
 <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(122, 122, 255);">Al presionar JUGAR se te pondrán prompts en la pantalla que te solicitarn números del 1 al 10, cada número que pongas equivale a una letra del abacedario, <strong>NOTA:</strong> estan ordenadas alfabéticamente y numéricamente, puedes armar la palabra que tu desees (máximo 10 letras) :D</p>
 <p>En esta tabla se te dejaran las letras y sus números :D</p>
 <table>
@@ -208,7 +227,7 @@ return false;
     <td>25</td>
 </tr>
 
-    
+
 </table>
 <form id="numerosForm">
     <div>
@@ -243,6 +262,6 @@ return false;
     </div>
     <button onclick="return pal()">JUGAR</button>
 </form>
-<p>AL TERMINAR PROMPRS, EL PDF SE TE GENRARÁ AL PRINCIPIO DE LA PÁGINA</p>
+<p>AL TERMINAR EL FORMULARIO Y PRESIONAR EN JUGAR, EL PDF SE TE GENRARÁ AL PRINCIPIO DE LA PÁGINA AL IGAUL QUE LA APALABRA EN PANTALLA</p>
 </body>
 </html>
