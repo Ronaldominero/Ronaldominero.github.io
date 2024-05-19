@@ -58,8 +58,8 @@
 
         for(i = 1; i < 11; i++){
             do{
-                numero = prompt('Escriba un número, la cantidad de números que lleva es: ' + i);
-                numero = parseInt(numero);
+                var numero = parseInt(document.getElementById('numero' + i).value);
+
             }while(numero < 0 || numero > 25);
             numeros.push(numero);
         }
@@ -70,6 +70,7 @@
             var letra = abcdario[numeros[i]]; 
             palabra+=letra
         }
+        
 
 var doc = new jsPDF();
 doc.setFontSize(22);
@@ -85,6 +86,7 @@ doc.text(20, 30, palabra);
 var string = doc.output('datauristring');
 
 $('iframe').attr('src', string);
+return false;
 
         }
 
@@ -94,7 +96,7 @@ $('iframe').attr('src', string);
 
 
 <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(90, 231, 109);">¡JUEGO DE LA PALABRA!</h1>
-<p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(122, 122, 255);">Al presionar JUGAR se te pondrán prompts en la pantalla que te solicitarn números del 1 al 10, cada número que pongas equivale a una letra del abacedario, <strong>NOTA:</strong> estan ordenadas alfabéticamente y numéricamente, puedes armar la palabra que tu desees (10 letras) :D</p>
+<p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(122, 122, 255);">Al presionar JUGAR se te pondrán prompts en la pantalla que te solicitarn números del 1 al 10, cada número que pongas equivale a una letra del abacedario, <strong>NOTA:</strong> estan ordenadas alfabéticamente y numéricamente, puedes armar la palabra que tu desees (máximo 10 letras) :D</p>
 <p>En esta tabla se te dejaran las letras y sus números :D</p>
 <table>
     <tr>
@@ -208,7 +210,49 @@ $('iframe').attr('src', string);
 
     
 </table>
-<button onclick="pal()">JUGAR</button>
+<form id="numerosForm">
+    <div>
+        <label for="numero1">Número 1:</label>
+        <input type="number" id="numero1" name="numero1" min="0" max="25" required>
+    </div>
+    <div>
+        <label for="numero2">Número 2:</label>
+        <input type="number" id="numero2" name="numero2" min="0" max="25" required>
+    </div>
+    <div>
+        <label for="numero3">Número 3:</label>
+        <input type="number" id="numero3" name="numero3" min="0" max="25" required>
+    </div>
+    <div>
+        <label for="numero4">Número 4:</label>
+        <input type="number" id="numero4" name="numero4" min="0" max="25" required>
+    </div>
+    <div>
+        <label for="numero5">Número 5:</label>
+        <input type="number" id="numero5" name="numero5" min="0" max="25" required>
+    </div>
+    <div>
+        <label for="numero6">Número 6:</label>
+        <input type="number" id="numero6" name="numero6" min="0" max="25" required>
+    </div>
+    <div>
+        <label for="numero7">Número 7:</label>
+        <input type="number" id="numero7" name="numero7" min="0" max="25" required>
+    </div>
+    <div>
+        <label for="numero8">Número 8:</label>
+        <input type="number" id="numero8" name="numero8" min="0" max="25" required>
+    </div>
+    <div>
+        <label for="numero9">Número 9:</label>
+        <input type="number" id="numero9" name="numero9" min="0" max="25" required>
+    </div>
+    <div>
+        <label for="numero10">Número 10:</label>
+        <input type="number" id="numero10" name="numero10" min="0" max="25" required>
+    </div>
+    <button onclick="return pal()">JUGAR</button>
+</form>
 <p>AL TERMINAR PROMPRS, EL PDF SE TE GENRARÁ AL PRINCIPIO DE LA PÁGINA</p>
 </body>
 </html>
