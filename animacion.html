@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transición de imagen con CSS</title>
+    <style>
+        /* Estilos básicos para la imagen */
+        .boton {
+            width: 120px; /* Ancho inicial */
+            transition: width 0.5s; /* Transición suave */
+            background-color: white;
+            color: orange;
+            border: 1px solid blue;
+            text-decoration: none;
+            display: flex; margin-top: 10px;
+        }
+        /* Cambio de tamaño al hacer hover */
+        .boton:hover {
+            width: 200px; /* Ancho al hacer hover */
+            background-color:rgb(20, 20, 124);
+            color: orange;
+            border: white solid;
+        }
+        br{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Transición de imagen con CSS</h1>
+
+    <!-- Imagen con clase "imagen" -->
+    <a class="boton" href="http://www.upslp.edu.mx">NOSOTROS</a>
+    <a class="boton" href="http://www.upslp.edu.mx">ASPITANTES</a>
+    <a class="boton" href="http://www.upslp.edu.mx">ESTUDIANTES</a>
+    <a class="boton" href="http://www.upslp.edu.mx">DOCENTES</a>
+    <a class="boton" href="http://www.upslp.edu.mx">EGRESADOS</a>
+    <a class="boton" href="mailto:184126@upslp.edu.mx">CONTACTO</a>
+
+
+</body>
+</html>
