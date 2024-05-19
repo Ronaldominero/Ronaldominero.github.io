@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(46, 46, 46);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    color: rgb(168, 73, 10);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 100px;
+    
+}
+.boton-a{
+    display: block;
+    width: 300px;
+    height: 500PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(255, 219, 154);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 150px 35px;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5cm;
+
+}
+.boton-a:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color: rgb(255, 219, 154);
+    color: rgb(255, 219, 154);
+}
+.boton2-a{
+    display: block;
+    width: 300px;
+    height: 500PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(255, 219, 154);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 150px 35px;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5cm;
+
+   
+}
+.boton2-a:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color: rgb(255, 219, 154);
+    color: rgb(255, 219, 154);
+}
+.derecha{
+    display: flex;
+    
+}
+
+.act-a{
+    display: block;
+    width: 200px;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(255, 219, 154);
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 10px 130px;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+
+}
+
