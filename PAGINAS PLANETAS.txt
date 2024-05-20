@@ -1,0 +1,268 @@
+PAGINAS PLANETAS
+
+SOL:
+<html>
+    <head>
+        <title>sol</title>
+    </head>
+    <body style="font-family: 'Times New Roman', Times, serif;">
+        <center>
+            <h1>SOL</h1>
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="sol.jpg" alt="sol" width="350" height="350">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                            <p>La superficie del Sol tiene mucha actividad. Allí hay gases con carga eléctrica que generan áreas de poderosas fuerzas magnéticas. Estas áreas se llaman campos magnéticos. Los gases del Sol se mueven constantemente, y los campos magnéticos se enredan, se estiran y se tuercen como consecuencia. Este movimiento crea mucha actividad en la superficie del Sol, y lo llamamos actividad solar.
+                            </p>
+                            <p>A veces, la superficie del Sol está muy activa. En otras ocasiones, está un poco más tranquila. La actividad solar cambia con las etapas del ciclo solar. La actividad solar, además, puede tener efectos aquí en la Tierra, por lo que los científicos la monitorean con atención todos los días.
+                            </p>
+                            
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+-------------------------------------------------------------------------------------
+MERCURIO
+
+<html>
+    <head>
+        <title>mercurio</title>
+    </head>
+    <body style="font-family: 'Times New Roman', Times, serif;">
+        <center>
+            <h1>MERCURIO</h1>
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="mercurio.jpg" alt="mercurio">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                            <p>Mercurio es el planeta más pequeño de nuestro sistema solar. Simplemente, es un poco más grande que la Luna de la Tierra.
+                                Es el planeta más cercano al Sol, pero no es realmente el más cálido. Venus es el más cálido. </p>
+                            <p>Junto con Venus, la Tierra y Marte, Mercurio es uno de los planetas rocosos. Tiene una superficie sólida que está cubierta de cráteres.</p>
+                            <p>Tiene una atmósfera delgada y no tiene ninguna luna. A Mercurio le gusta simplificar las cosas.
+                            </p>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+
+-----------------------------------------------------------------------
+VENUS
+
+<html>
+    <head>
+        <title>venus</title>
+    </head>
+    <body style="font-family: 'Times New Roman', Times, serif;">
+        <center>
+            <h1>VENUS</h1>
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="venus.jpg" alt="venus">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                            <p>Aunque Venus no es el planeta más cercano al Sol, es el más caliente. Tiene una atmósfera densa, llena de dióxido de carbono, que provoca el efecto invernadero, y de nubes compuestas de ácido sulfúrico. Los gases atrapan el calor y mantienen a Venus bien calentito. De hecho, hace tanto calor en Venus que metales como el plomo serían charcos de metal fundido.
+                            </p>
+                            <p>Venus se ve como un planeta muy activo. Tiene montañas y volcanes. Venus es similar a la Tierra, en tamaño. La Tierra es solo un poco más grande.
+                            </p>
+                            <p>Venus es poco común porque gira en dirección contraria a la de la Tierra y la mayoría de los otros planetas. Y su rotación es muy lenta. Tarda alrededor de 243 días terrestres en girar solo una vez. Debido a que está tan cerca del Sol, un año pasa muy rápido. Venus tarda 225 días terrestres en dar toda la vuelta alrededor del Sol. Esto significa que, en Venus, un día es un poco más largo que un año.
+                            </p>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+
+-----------------------------------------------------------
+TIERRA
+
+<html>
+    <head>
+        <title>tierra</title>
+    </head>
+    <body style="font-family: 'Times New Roman', Times, serif;">
+        <center>
+            <h1>TIERRA</h1>
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="tierra.jpg" alt="tierra">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                            <p>Nuestro hogar, el planeta Tierra, es un planeta terrestre y rocoso. Tiene una superficie sólida y activa, con montañas, valles, cañones, llanuras y mucho más. </p>
+                            <p>La Tierra es especial porque es un planeta océano, ya que el agua cubre el 70% de su superficie.</p>
+                            <p>Nuestra atmósferaestá compuesta, en gran parte, por nitrógeno. También tiene mucho oxígeno, que nos permite respirar.
+                                Además, nos protege de los meteoroides que se acercan a la Tierra, la mayoría de los cuales se desintegran en nuestra atmósfera antes de llegar a la superficie en forma de meteoritos.
+                                </p>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+
+--------------------------------------------------
+MARTE
+
+<html>
+    <head>
+        <title>marte</title>
+    </head>
+    <body style="font-family: 'Times New Roman', Times, serif;">
+        <center>
+            <h1>MARTE</h1>
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="marte.jpg" alt="marte">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                            <p>Marte es un planeta desértico y frío. Es la mitad del tamaño de la Tierra, y también recibe el nombre de "planeta rojo". Es rojo por el hierro oxidado que tiene en el suelo.
+                            </p>
+                            <p>Como la Tierra, Marte tiene estaciones, casquetes polares, volcanes, cañones y clima. Tiene una atmósfera poco densa hecha de dióxido de carbono, nitrógeno y argón.
+                            </p>
+                            <p>Hay signos de antiguas inundaciones en Marte, pero ahora el agua existe principalmente en su polvo helado y sus nubes delgadas. En algunas laderas marcianas, se han encontrado pruebas de agua líquida salada.
+                            </p>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+
+----------------------------------------------------------------
+JÚPITER
+
+<html>
+    <head>
+        <title>jupiter</title>
+    </head>
+    <body style="font-family: 'Times New Roman', Times, serif;">
+        <center>
+            <h1>JUPITER</h1>
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="jupiter.jpg" alt="jupiter" width="300" height="310">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                            <p>Júpiter es el planeta más grande de nuestro sistema solar. Es parecido a una estrella, pero nunca llegó a ser lo suficientemente masiva como para empezar a arder. Está cubierto de rayas de nubes arremolinadas. Tiene fuertes tormentas como la Gran Mancha Roja, que hace cientos de años que dura. Júpiter es un gigante hecho de gas, y no tiene una superficie sólida, pero puede tener un núcleo interno sólido de aproximadamente el tamaño de la Tierra. Júpiter también tiene anillos, pero son demasiado tenues para verlos muy bien.
+                            </p>
+                            
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+
+------------------------------------------------------
+SATURNO
+
+<html>
+    <head>
+        <title>saturno</title>
+    </head>
+    <body style="font-family: 'Times New Roman', Times, serif;">
+        <center>
+            <h1>SATURNO</h1>
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="saturno.jpg" alt="saturno" width="700" height="310">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                            <p>Saturno no es el único planeta que tiene anillos, pero definitivamente tiene los más bellos. Los anillos que vemos están compuestos por grupos de pequeños aros que rodean a Saturno. Están hechos de pedazos de hielo y roca. Como Júpiter, Saturno es una pelota de hidrógeno y helio, en gran parte.
+                            </p>
+                            <p>Cuando Galileo Galilei vio a Saturno a través de un telescopio en el siglo XVII, no estaba seguro de lo que estaba viendo. Al principio, creyó que estaba mirando tres planetas, o un planeta con asas. Ahora, sabemos que esas "asas" eran los anillos de Saturno.
+                            </p>
+                            
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+-----------------------------------------
+URANO
+
+<html>
+    <head>
+        <title>urano</title>
+    </head>
+    <body style="font-family: 'Times New Roman', Times, serif;">
+        <center>
+            <h1>URANO</h1>
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="urano.jpg" alt="urano" width="350" height="350">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                            <p>Urano está compuesto de agua, metano y amoniaco sobre un pequeño centro rocoso. Su atmósfera está hecha de hidrógeno y helio, como Júpiter y Saturno, pero además contiene metano. El metano es lo que le da a Urano el color azul.
+                            </p>
+                            <p>Urano también tiene anillos tenues. Los anillos internos son angostos y oscuros. Los anillos externos tienen colores vivos y son más fáciles de ver. Como Venus, Urano rota en dirección opuesta a la de la mayoría de los otros planetas. Y, a diferencia de cualquier otro planeta, Urano rota de lado.
+                            </p>
+                            
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+
+
+------------------------------------------------------------
+NEPTUNO
+
+<html>
+    <head>
+        <title>neptuno</title>
+    </head>
+    <body style="font-family: 'Times New Roman', Times, serif;">
+        <center>
+            <h1>NEPTUNO</h1>
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="neptuno.jpg" alt="neptuno" width="350" height="350">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                            <p>Neptuno es oscuro, frío y muy ventoso. Es el último de los planetas de nuestro sistema solar. Está más de 30 veces más lejos del Sol que la Tierra. Neptuno es muy parecido a Urano. Está compuesto de una espesa mezcla de agua, amoniaco y metano sobre un centro sólido del tamaño de la Tierra. Su atmósfera se compone de hidrógeno, helio y metano. El metano le da a Neptuno el mismo color azul de Urano. Neptuno tiene seis anillos que no se ven fácilmente.
+                            </p>
+                            
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+
+
