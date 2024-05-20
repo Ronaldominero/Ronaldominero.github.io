@@ -1,0 +1,45 @@
+html {
+    background-color: hwb(150 25% 30%);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 125%;
+    text-align: center;
+    hyphens: auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-right: 10px;
+    
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin: 50px;
+    border: green 10px solid;
+    background-color: hwb(150 50% 30%);
+}
+
+h2 {
+    margin: 3px;
+    padding: 5px;
+    border-right: black 1px solid;
+}
+
+div {
+    margin: 20px;
+}
+
+img{
+    border: 7px solid green;
+}
+p::first-letter {
+    float: left;
+    color: hwb(123 0% 60%);
+    font-size: 3.5rem;
+    font-style: normal;
+    line-height: 3rem; 
+  }

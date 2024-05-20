@@ -1,0 +1,210 @@
+Proyecto Portafolio de evidencias
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+    <h1>MI PORTAFOLIO</h1>
+    <P><strong><a href="practica1.html">PRACTICA 1</a></strong></P>
+    <P><strong><a href="PRACTICA2.html">PRACTICA 2</a></strong></P>
+
+    <P><strong><a href="practica3.html">PRACTICA 3</a></strong></P>
+
+    <P><strong><a href="parctica4.html">PRACTICA 4</a></strong></P>
+
+    <P><strong><a href="parctica5.html">PRACTICA 5</a></strong></P>
+
+    <P><strong><a href="practica_6.html">PRACTICA 6</a></strong></P>
+
+    <P><strong><a href="practica7.html">PRACTICA 7</a></strong></P>
+
+    <P><strong><a href="reto1.html">RETO 1</a></strong></P>
+
+
+</body>
+</html>
+
+
+
+RETO 1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+    <h1>MI PORTAFOLIO</h1>
+    <P><strong><a href="practica1.html">PRACTICA 1</a></strong></P>
+    <P><strong><a href="PRACTICA2.html">PRACTICA 2</a></strong></P>
+
+    <P><strong><a href="practica3.html">PRACTICA 3</a></strong></P>
+
+    <P><strong><a href="parctica4.html">PRACTICA 4</a></strong></P>
+
+    <P><strong><a href="parctica5.html">PRACTICA 5</a></strong></P>
+
+    <P><strong><a href="practica__6.html">PRACTICA 6</a></strong></P>
+
+    <P><strong><a href="practica_7.html">PRACTICA 7</a></strong></P>
+    <P><strong><a href="reto1.html">RETO 1</a></strong></P>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+    <iframe src="" name="portafolio" title="contenido"></iframe>
+    <h1>MI PORTAFOLIO</h1>
+    <P><strong><a href="https://shre.ink/rfV2" target="portafolio">PRACTICA 1</a></strong></P>
+    <P><strong><a href="https://shre.ink/rfV1" target="portafolio">PRACTICA 2</a></strong></P>
+
+    <P><strong><a href="https://shre.ink/rfw0" target="portafolio">PRACTICA 3</a></strong></P>
+
+    <P><strong><a href="https://shre.ink/rfwh" target="portafolio">PRACTICA 4</a></strong></P>
+
+    <P><strong><a href="https://shre.ink/rfwK" target="portafolio">PRACTICA 5</a></strong></P>
+
+    <P><strong><a href="https://shre.ink/rfw3" target="portafolio">PRACTICA 6</a></strong></P>
+
+    <P><strong><a href="https://shre.ink/rfwA" target="portafolio">PRACTICA 7</a></strong></P>
+    <P><strong><a href="https://shre.ink/rfwx">RETO 1</a></strong></P>
+    
+
+
+</body>
+</html>
+
+---------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Video</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif;">
+    <h1>
+        REPRODUCTOR DE VIDEOS DE NATURALEZA :D
+    </h1>
+    <section id="reproductor">
+    <video src="squirrel_-_3904 (540p).mp4" width="400" height="400" controls>
+    </video>
+    <video src="153976-806571973 (1080p).mp4" width="400" height="400" controls>
+    </video>
+    <video src="robin_-_21723 (540p).mp4" width="400" height="400" controls></video>
+    </section>
+    <section id ="youtube">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nFXnsoaELpg?si=HeGmjnjCxuxkwrxL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7Ilu033ydSw?si=x7zq5YBrRoXA-BWu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ga9tXF4Qm2o?si=kJoVJKxSjxfrvIaJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+</body>
+</html>
+
+-------------------------------------
+Formulario
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIO DE PRIMER CONTACTO TUTORIA</h1>
+    <form action="liliana.gamez@upslp.edu.mx" method="get">
+        <p>Nombre <input type="text" name="nombre" size="100"></p>
+        <p>Matrícula <input type="number" name="matricula" min="180000"></p>
+        <p>Semestre <input type="radio" name="sem" value="1">1
+         <input type="radio" name="sem" value="2">2
+         <input type="radio" name="sem" value="3">3
+         <input type="radio" name="sem" value="4">4
+         <input type="radio" name="sem" value="5">5
+         <input type="radio" name="sem" value="6">6
+         <input type="radio" name="sem" value="7">7
+         <input type="radio" name="sem" value="8">8
+         <input type="radio" name="sem" value="9">9
+         <input type="radio" name="sem" value="9+">9+
+        </p>
+        <p>Fecha <input type="date" name="fecha"></p>
+        <p>Materia 1<input type="text" name="mat1" size="20">
+            Materia 2<input type="text" name="mat2" size="20">
+            Materia 3<input type="text" name="mat3" size="20">
+            Materia 4<input type="text" name="mat4" size="20">
+            Materia 5<input type="text" name="mat5" size="20">
+            Materia 6<input type="text" name="mat6" size="20">
+            Materia 7<input type="text" name="mat7" size="20">
+            <p>Calificación <input type="number" name="cmat1" min="0" max="10">
+                Calificación 1 <input type="number" name="cmat1" min="0" max="10">
+                Calificación 2 <input type="number" name="cmat1" min="0" max="10">
+                Calificación 3<input type="number" name="cmat1" min="0" max="10">
+                Calificación 4<input type="number" name="cmat1" min="0" max="10">
+                Calificación 5<input type="number" name="cmat1" min="0" max="10">
+                Calificación 6<input type="number" name="cmat1" min="0" max="10">
+            </p>
+            <p>¿Por qué reprobaste las matrias? (En caso de haberlas reprobado) 
+                <textarea  name="porq" cols="100" rows="4"
+                placeholder="Aquí escribe tu comentario"></textarea>
+
+                <p>Pon tu desempeño el semestre pasado <input type="radio" name="sem" value="malo">malo
+                    <input type="radio" name="sem" value="regular">regular
+                    <input type="radio" name="sem" value="bueno">bueno
+                    <input type="radio" name="sem" value="excelente">Excelente
+                   </p>
+
+
+
+
+
+
+
+
+            
+                <p><input type="submit" value="Enviar">
+                    <input type="reset" value="Volver a hacer">
+                </p>
+                    
+
+        
+        </p>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

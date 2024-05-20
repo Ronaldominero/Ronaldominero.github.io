@@ -1,0 +1,42 @@
+Programación web I parcial 2
+Codigo de ejemplo 1:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+        h1{
+            color: blue;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h6{
+            color: red;
+            font-family: Verdana;
+        }
+        p{
+            color: green;
+            font-family: serif;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    </STYLE>
+</head>
+<body>
+    <h1>TEXTO DEL ENCABEZADO</h1>
+    <h2>TEXTO DEL ENCABEZADO</h2>
+    <h3>TEXTO DEL ENCABEZADO</h3>
+    <h4>TEXTO DEL ENCABEZADO</h4>
+    <h5>TEXTO DEL ENCABEZADO</h5>
+    <h6>TEXTO DEL ENCABEZADO</h6>
+    <p>Parrafo 1</p>
+    <p>Parrafo 2</p>
+    <img src="Imagen 1.jpg" alt="Imagen 1">
+    <img src="imagen2 2.png" alt="Imagen 2">
+    <img src="Imagen 3.jpg" alt="Imagen 3">
+</body>
+</html>
