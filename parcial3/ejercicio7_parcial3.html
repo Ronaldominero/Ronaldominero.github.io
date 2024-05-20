@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        button{
+            display: block;
+    width: 200px;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(255, 219, 154);
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 10px 130px;
+    color: orange;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+
+        }
+        body{
+            background-color:  rgb(46, 46, 46);
+        }
+        h1{
+            color: rgb(168, 73, 10);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: 100;
+            font-size: 50px;
+        }
+    </style>
 </head>
 <body>
+    <h1>PARCIAL 3, AL PRESIONAR LOS BOTONES DE CADA ACTIVIDAD APARECERÁ UN TEXTO CON LINK A LA ACTIVIDAD :D</h1>
     <table>
         <tr>
     <td><button onclick="act1()">Actividad 1 </button></td>
@@ -35,6 +63,12 @@
 <tr>
     <td><button onclick="act16()">Actividad Juego</button></td>
     <td><button onclick="act17()">Actividad TEST</button></td>
+    <td><button onclick="act18()">PIRÁMIDE PDF</button></td>
+
+
+</tr>
+<tr>
+    <td><button onclick="act19()">TRIÁNGULO PDF</button></td>
 
 </tr>
 
@@ -106,6 +140,15 @@
             document.getElementById("demo").innerHTML="<a href=https://ronaldominero.github.io/parcial3/testalumno.html>TEST</a>";
             
         }
+        function act18(){
+            document.getElementById("demo").innerHTML="<a href=https://ronaldominero.github.io/parcial3/ejerciciopfd2_parte2_parcial3.html>PIRÁMIDE PDF</a>";
+            
+        }
+        function act19(){
+            document.getElementById("demo").innerHTML="<a href=https://ronaldominero.github.io/parcial3/ejerciciopdf2_modi_parcial3.html>TRIÁNGULO PDF</a>";
+            
+        }
+        
         
         
 
